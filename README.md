@@ -117,9 +117,14 @@ Differences in ride frequency, trip duration, time-of-day activity, and station 
 
 ## Key Insights
 
-1. Analysis shows casual riders tend to take longer trips compared to members and are more active on Saturdays and Sundays
-2. Ride origin data indicates casual users predominantly begin their trips in parks, tourist spots, and other recreational locations
-3. Members exhibit strong ride activity spikes during morning and evening commute times, whereas casual riders gradually increase activity until late afternoon
+**Casual riders are highly influenced by seasonality and leisure-oriented usage**
+Casual riders showed significantly higher activity during summer months and weekends compared to annual members, suggesting that many users primarily rely on the service for recreational and occasional travel rather than daily commuting.
+
+**Casual riders tend to take longer and more flexible trips**
+Compared to annual members, casual riders recorded substantially longer ride durations and a more gradual increase in activity throughout the day. This indicates a preference for flexible and experience-oriented usage rather than short, routine transportation.
+
+**Casual riders are strongly connected to recreational and tourist-heavy areas**
+Station usage patterns revealed that casual riders are more commonly associated with parks, waterfronts, and tourist-heavy locations, unlike annual members who primarily travel between business and transportation-centered areas.
 
 
 ## Recommendations
