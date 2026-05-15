@@ -56,28 +56,6 @@ The cleaned dataset was stored as `cleaned_tripdata` and used for all subsequent
 
 ---
 
-## Analysis Summary
-
-The analysis focused on understanding differences between casual riders and annual members across multiple dimensions:
-
-1. **Ride Frequency**
-   - Members ride more consistently across all months.  
-   - Casual riders show spikes during weekends and summer months.
-
-2. **Ride Duration**
-   - Casual rides are generally longer, suggesting occasional leisure usage.  
-   - Members have shorter, frequent trips, indicating commuting patterns.
-
-3. **Time-of-Day Trends**
-   - Member rides peak during morning at 8 AM and evening commute hours around 5PM.  
-   - Casual rides rise steady until 5pm.
-
-4. **Station & Geographic Patterns**
-   - Members tend to start and end rides at main stations near downtown around workplaces.  
-   - Casual riders prefer recreational areas or tourist-heavy locations.
-
----
-
 ## Visualizations
 
 The Tableau dashboard provides professional, interactive visualizations including:
