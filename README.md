@@ -117,13 +117,16 @@ Differences in ride frequency, trip duration, time-of-day activity, and station 
 
 ## Key Insights
 
-**Casual riders are highly influenced by seasonality and leisure-oriented usage**
+1. **Casual riders are highly influenced by seasonality and leisure-oriented usage**
+
 Casual riders showed significantly higher activity during summer months and weekends compared to annual members, suggesting that many users primarily rely on the service for recreational and occasional travel rather than daily commuting.
 
-**Casual riders tend to take longer and more flexible trips**
+2. **Casual riders tend to take longer and more flexible trips**
+
 Compared to annual members, casual riders recorded substantially longer ride durations and a more gradual increase in activity throughout the day. This indicates a preference for flexible and experience-oriented usage rather than short, routine transportation.
 
-**Casual riders are strongly connected to recreational and tourist-heavy areas**
+3. **Casual riders are strongly connected to recreational and tourist-heavy areas**
+
 Station usage patterns revealed that casual riders are more commonly associated with parks, waterfronts, and tourist-heavy locations, unlike annual members who primarily travel between business and transportation-centered areas.
 
 
