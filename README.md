@@ -115,7 +115,7 @@ This pattern further supports earlier observations, suggesting that casual rider
 
 Annual members, on the other hand, evidentially take shorter rides, which aligns more closely with commuting behavior and regular transportation needs. This suggests that although members use the service more frequently, their rides are generally shorter and focused on efficient point-to-point transportation rather than leisure-oriented travel.
 
-**Time-of-Day Trends**
+**Starting Time Trends**
 
 Distinct differences also appeared when analyzing ride activity throughout the day. Annual members demonstrated clear peaks during traditional commuting hours, particularly around 8 AM and 5 PM, which further supports earlier observations that they use the service as part of transportation to and from workplaces and daily mobility needs. 
 
