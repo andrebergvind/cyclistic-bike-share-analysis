@@ -7,7 +7,8 @@ The project was completed as part of the Google Data Analytics Certificate and s
 ## Project Overview
 
 **Business Task:**  
-The director of marketing at Cyclistic believes the company’s future growth depends on maximizing the number of annual memberships. The goal of this project is to analyze how casual riders and annual members use Cyclistic bikes differently, uncover actionable insights, and provide data-driven recommendations to convert casual riders into annual members.
+The director of marketing at Cyclistic believes the company’s future growth depends on maximizing the number of annual memberships. The goal of this project is to analyze how casual riders and annual members use Cyclistic bikes differently, uncover actionable insights, and provide data-driven recommendations to convert casual riders into annual members, ultimately supporting the company’s long-term growth. 
+
 
 **Main Question:**  
 How do casual vs member users behave differently, and how can Cyclistic convert casual users into members?
@@ -110,6 +111,32 @@ What was more interesting to see was
 
 **Conclusion**
 
+Following analysis, we get a better understanding of the behavioural differences between casual riders and members. The data related to casual riders provide valuable insight to the factors that should be considered when developing effective strategies to maximise membership conversion.
+
+While the main objective is to drive annual memberships, it is important to consider that a large proportion of casual riders may consist of tourists, including one time visitors. Therefore, shorter membership deals such as weekly or over weekend passes could still drive revenue and serve as an effective entry point into the membership ecosystem if the company chooses to expand to other locations.
+
+However, with the desired outcome being increased annual memberships rather than short-term membership deals, greater focus should be placed on targeting recurring casual riders and communicating the long-term value, convenience, and financial benefits associated with becoming an annual member.
+
+In order to most effectively target recurring riders, ideally we would require additional data, such as a unique identifier for each rider, not present in this dataset. Nonetheless,the analysis still provides valuable insight into where and when these are most likely to access Cyclistic’s services.
+Therefore, marketing efforts should be optimized on the periods and locations where casual rider activity is highest. Seasonal peaks, recreational areas, and weekend usage patterns may represent valuable opportunities for increasing awareness of the benefits associated with annual memberships.
+
+In terms of implementing 
+
+
+
+
+To answer the main question. 
+
+occasional
+
+the task at hand
+
+considering
+
+Allowing for
+
+Allowing casual riders to experience the additional convenience and cost benefits associated with memberships may increase the likelihood of long-term conversion into annual members over time.
+
 Overall, the analysis indicates that annual members and casual riders demonstrate significantly different usage behaviours. Annual members appear to use the service more consistently as part of regular urban transportation and commuting needs, while casual riders show stronger connections to seasonal, recreational, and leisure-oriented usage. 
 
 Differences in ride frequency, trip duration, time-of-day activity, and station usage suggest that converting casual riders into annual members may require targeted membership strategies tailored to their more recreational and seasonal usage behavior.
@@ -132,17 +159,28 @@ Station usage patterns revealed that casual riders are more commonly associated 
 
 ## Recommendations
 
-Based on the analysis, Cyclistic can increase annual memberships by:
+Based on the key insights following the analysis, Cyclistic can increase annual memberships by:
+  
+
+1. **Promote the long-term value of annual memberships during peak casual rider seasons**
+
+Launch targeted summer and weekend campaigns demonstrating how frequent casual riders could reduce overall ride costs and gain additional benefits by switching to annual memberships.
+
+2. **Offer limited-time incentives encouraging casual riders to transition into annual members**
+
+We should provide incentives such as discounted first-year memberships, free trial periods, or reward programs for casual riders with high ride frequency or long-duration trips to lower the barrier toward membership conversion.
+
+3. **Target casual riders directly at high-traffic recreational stations**
+
+In order to most effectively reach the targeted segment we should implement location-based marketing at parks, waterfronts, and tourist-heavy stations.
+through app notifications, QR campaigns, and digital advertisements that highlight the convenience and economic advantages of becoming an annual member.
+
+
+Decrease the additional payment for rides over 20 min during days 
+  
+
+  **Additional Recommendation Focusing On Tourists**
 
 1. **Offer a Variety of Membership Types**
-   - Target tourists and other leisure riders promoting weekend or week memberships 
-   - Introduce flexible membership options to appeal to different rider segments, such as weekend-only passes, 1-week tourist memberships, or short-term trial memberships
-
-2. **Target Marketing by Ride Behavior**
-   - Identify casual users with frequent weekend usage or long-duration rides
-   - Tailor messaging to highlight benefits that resonate with these behaviors, for example, “Unlimited weekend rides with a membership”
-
-3. **Localized Engagement**
-   - Focus on recreational and tourist-heavy areas for membership campaigns
-   - Place advertisements or QR code offers at popular casual start stations to capture new members 
+   - Introduce flexible membership options to appeal to the tourist rider segment, such as weekend-only passes and a 1-week tourist membership.
 
