@@ -12,7 +12,6 @@ The director of marketing at Cyclistic believes the company’s future growth de
 **Main Question:**  
 How do casual vs member users behave differently, and how can Cyclistic convert casual users into members?
 
----
 
 ## Data Sources
 
@@ -27,7 +26,7 @@ The analysis used the Cyclistic bike share dataset, which includes 12 months of 
 
 > **Note:** Due to file size restrictions, the full dataset is not included. It can be accessed via the original Cyclistic Divvy data sources.
 
----
+
 
 ## Data Cleaning & Transformation
 
@@ -54,7 +53,6 @@ The analysis used the Cyclistic bike share dataset, which includes 12 months of 
 
 The cleaned dataset was stored as `cleaned_tripdata` and used for all subsequent analysis.
 
----
 
 ## Visualizations
 
@@ -69,7 +67,6 @@ The Tableau dashboard provides professional, interactive visualizations includin
 
 > **Link to interactive dashboard:** [Tableau Public Dashboard](https://public.tableau.com/views/CyclisticAnalysis_17737226068460/UserBehaviourOverview?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
 
----
 
 ## Analysis
 
@@ -124,7 +121,6 @@ Differences in ride frequency, trip duration, time-of-day activity, and station 
 2. Ride origin data indicates casual users predominantly begin their trips in parks, tourist spots, and other recreational locations
 3. Members exhibit strong ride activity spikes during morning and evening commute times, whereas casual riders gradually increase activity until late afternoon
 
----
 
 ## Recommendations
 
