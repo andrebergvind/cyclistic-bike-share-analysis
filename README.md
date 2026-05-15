@@ -2,19 +2,21 @@
 Data analysis project exploring behavioral differences between casual riders and members using Excel, SQL (BigQuery) and Tableau, with insights to support customer conversion strategies.
 In this project, I assume the role of a Junior Data Analyst on the marketing analytics team at Cyclistic, a bike-share company based in Chicago.
 
+This project was completed as part of the Google Data Analytics Certificate and served as the final capstone project required for certification.
+
 ## Project Overview
 
 **Business Task:**  
 The director of marketing at Cyclistic believes the company’s future growth depends on maximizing the number of annual memberships. The goal of this project is to analyze how casual riders and annual members use Cyclistic bikes differently, uncover actionable insights, and provide data-driven recommendations to convert casual riders into annual members.
 
 **Main Question:**  
-> How do casual vs member users behave differently, and how can Cyclistic convert casual users into members?
+How do casual vs member users behave differently, and how can Cyclistic convert casual users into members?
 
 ---
 
 ## Data Sources
 
-The analysis uses the Cyclistic bike share dataset, which includes 12 months of ride data ranging from July 2024 to June 2025. Key fields include:
+The analysis used the Cyclistic bike share dataset, which includes 12 months of ride data ranging from July 2024 to June 2025. Key fields include:
 
 - `ride_id`: Unique identifier for each ride  
 - `rideable_type`: Type of bike (classic_bike, electric_bike, electric_scooter)  
@@ -50,7 +52,7 @@ The analysis uses the Cyclistic bike share dataset, which includes 12 months of 
    - Ensured `ride_id` uniqueness and length consistency  
    - Validated geographic coordinates for all rides
 
-> The cleaned dataset was stored as `cleaned_tripdata` and used for all subsequent analysis.
+The cleaned dataset was stored as `cleaned_tripdata` and used for all subsequent analysis.
 
 ---
 
@@ -58,7 +60,7 @@ The analysis uses the Cyclistic bike share dataset, which includes 12 months of 
 
 The analysis focused on understanding differences between casual riders and annual members across multiple dimensions:
 
-1. **Ride Frequency & Patterns**
+1. **Ride Frequency**
    - Members ride more consistently across all months.  
    - Casual riders show spikes during weekends and summer months.
 
@@ -66,13 +68,13 @@ The analysis focused on understanding differences between casual riders and annu
    - Casual rides are generally longer, suggesting occasional leisure usage.  
    - Members have shorter, frequent trips, indicating commuting patterns.
 
-3. **Station & Geographic Patterns**
-   - Members tend to start and end rides at main stations near downtown around workplaces.  
-   - Casual riders prefer recreational areas or tourist-heavy locations.
-
-4. **Time-of-Day Trends**
+3. **Time-of-Day Trends**
    - Member rides peak during morning at 8 AM and evening commute hours around 5PM.  
    - Casual rides rise steady until 5pm.
+
+4. **Station & Geographic Patterns**
+   - Members tend to start and end rides at main stations near downtown around workplaces.  
+   - Casual riders prefer recreational areas or tourist-heavy locations.
 
 ---
 
@@ -90,6 +92,53 @@ The Tableau dashboard provides professional, interactive visualizations includin
 > **Link to interactive dashboard:** [Tableau Public Dashboard](https://public.tableau.com/views/CyclisticAnalysis_17737226068460/UserBehaviourOverview?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
 
 ---
+
+## Analysis
+
+The analysis showcased several differences between casual riders and annual members in terms of ride behavior, usage frequency, trip duration, and geographic movement patterns. By examining trends across time, location, and ride activity, the analysis provides deeper insight into how the two customer groups appear to use Cyclistic’s bike-sharing services for different purposes.
+
+**Ride Frequency**
+
+In terms of rides by month, both casual riders and annual members followed a similar overall seasonal pattern, with ride frequency gradually increasing from January onward, peaking in September, and then declining during the later months of the year.
+
+However, despite the similar overall trends, casual riders showcased a noticeably sharper increase in activity during the summer period. From May to June, casual rides increased by approximately 50%, indicating that casual users are more influenced by seasonal factors such as warmer weather, holidays, and outdoor leisure activities compared to annual members.
+
+When analyzing weekly ride activity, annual members demonstrated more consistent usage throughout weekdays, indicating that bike-sharing is integrated into their daily commuting and weekday routines. In contrast, casual riders showed significantly higher activity levels during weekends, suggesting a stronger connection to leisure and recreational usage.
+
+Overall, the findings highlight clear seasonal and recreational usage patterns among casual riders. The strong increase in rides between spring and summer months, combined with higher weekend activity, suggests that many casual riders may be tourists or occasional users utilizing the service primarily for leisure purposes.
+
+**Ride Duration**
+
+A major difference in usage patterns between the two groups is reflected in the average trip duration, where casual riders recorded almost double the average ride length compared to annual members.
+
+This pattern further supports earlier observations, suggesting that casual riders are more likely to use the service for leisure-related activities rather than routine transportation. The longer ride durations may indicate usage for sightseeing, recreational trips, or more occasional exploratory travel around the city.
+
+Annual members, on the other hand, evidentially take shorter rides, which aligns more closely with commuting behavior and regular transportation needs. This suggests that although members use the service more frequently, their rides are generally shorter and focused on efficient point-to-point transportation rather than leisure-oriented travel.
+
+**Time-of-Day Trends**
+
+Distinct differences also appeared when analyzing ride activity throughout the day. Annual members demonstrated clear peaks during traditional commuting hours, particularly around 8 AM and 5 PM, which further supports earlier observations that they use the service as part of transportation to and from workplaces and daily mobility needs. 
+
+In contrast, casual rider activity followed a more gradual increase throughout the day, with ride frequency steadily rising from the late morning before reaching its highest point in the late afternoon around 5 PM. Unlike annual members, casual riders did not display a strong morning commute peak, suggesting that their usage is less associated with structured weekday routines and more connected to flexible activities.
+
+The differing activity distributions throughout the day further highlight how the two customer groups appear to use the service for different purposes.
+
+**Station & Geographic Patterns**
+
+A geographic analysis revealed additional clear differences between the groups in terms of station usage. By mapping out popular ride locations, the findings suggests that annual members tend to start their trips near downtown business districts, transportation hubs, and workplace-centered areas. In contrast, casual riders were more commonly associated with stations located near parks, waterfronts, recreational zones, and tourist-heavy areas. 
+
+The geographic distribution of rides further reinforces the behavioral differences observed throughout the analysis. While annual members display movement patterns centered around efficiency and urban mobility, casual riders demonstrate usage patterns more strongly connected to seasonal, recreational, and tourism-related activities.
+
+
+Eventhough a small detection was made about the increasing rides over months favouring summer months for casual riders, the pattern could simply suggest a bigger number of tourists during these months rather than...
+What was more interesting to see was 
+
+**Conclusion**
+
+Overall, the analysis indicates that annual members and casual riders demonstrate significantly different usage behaviours. Annual members appear to use the service more consistently as part of regular urban transportation and commuting needs, while casual riders show stronger connections to seasonal, recreational, and leisure-oriented usage. 
+
+Differences in ride frequency, trip duration, time-of-day activity, and station usage suggest that converting casual riders into annual members may require targeted membership strategies tailored to their more recreational and seasonal usage behavior.
+
 
 ## Key Insights
 
