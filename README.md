@@ -1,8 +1,8 @@
 # Cyclistic Bike Share Analysis
-Data analysis project exploring behavioral differences between casual riders and members using Excel, SQL (BigQuery) and Tableau, with insights to support customer conversion strategies.
+A data analysis project exploring behavioral differences between casual riders and members using Excel, SQL (BigQuery) and Tableau, with insights to support customer conversion strategies.
 In this project, I assume the role of a Junior Data Analyst on the marketing analytics team at Cyclistic, a bike-share company based in Chicago.
 
-This project was completed as part of the Google Data Analytics Certificate and served as the final capstone project required for certification.
+The project was completed as part of the Google Data Analytics Certificate and served as the final capstone project required for certification.
 
 ## Project Overview
 
