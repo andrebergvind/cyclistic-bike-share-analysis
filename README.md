@@ -123,7 +123,9 @@ Therefore, marketing efforts should be optimized on the periods and locations wh
 In terms of implementing 
 
 
+how digital media could affect their marketing tactics. 
 
+Why would casual riders buy Cyclistic annual memberships?
 
 To answer the main question. 
 
