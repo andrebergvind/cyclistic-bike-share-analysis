@@ -66,11 +66,11 @@ The Tableau dashboard provides professional, interactive visualizations includin
 - **Geo Maps of Popular Start Locations**
 
 ### User Behaviour Overview
-![Dashboard](cyclistic-bike-share_analysis.images.Consumer_Behaviour_Overview.png)
+![Dashboard](images/Consumer_Behaviour_Overview.png)
 
 
 ### Location Insights
-![Dashboard](Location_Insights.png)
+![Dashboard](images/Location_Insights.png)
 
 
 > **Link to interactive dashboard:** [Tableau Public Dashboard](https://public.tableau.com/views/CyclisticAnalysis_17737226068460/UserBehaviourOverview?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
