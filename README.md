@@ -54,7 +54,7 @@ The analysis used the Cyclistic bike share dataset, which includes 12 months of 
 The cleaned dataset was stored as `cleaned_tripdata` and used for all subsequent analysis.
 
 
-## Visualizations
+## Dashboard
 
 The Tableau dashboard provides professional, interactive visualizations including:
 
@@ -63,7 +63,13 @@ The Tableau dashboard provides professional, interactive visualizations includin
 - **Rides by Day** (Grouped by member vs casual)  
 - **Ride Start Time Distribution** (Hourly)   
 - **Top 10 Popular Start Stations** (Members vs Casuals)  
-- **Geo Maps of Popular Start Locations**  
+- **Geo Maps of Popular Start Locations**
+
+### User Behaviour Overview
+![Dashboard]()
+
+### Location Insights
+![Dashboard]()
 
 > **Link to interactive dashboard:** [Tableau Public Dashboard](https://public.tableau.com/views/CyclisticAnalysis_17737226068460/UserBehaviourOverview?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
 
