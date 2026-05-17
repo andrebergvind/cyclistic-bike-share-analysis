@@ -7,7 +7,7 @@ The project was completed as part of the Google Data Analytics Certificate and s
 ## Project Overview
 
 **Business Task:**  
-The director of marketing at Cyclistic believes the company’s future growth depends on maximizing the number of annual memberships. The goal of this project is to analyze how casual riders and annual members use Cyclistic bikes differently, uncover actionable insights, and provide data-driven recommendations to convert casual riders into annual members.
+The director of marketing at Cyclistic believes the company’s future growth depends on maximizing the number of annual memberships. The objective of the project was to analyze how casual riders and annual members use Cyclistic bikes differently, uncover actionable insights, and provide data-driven recommendations to convert casual riders into annual members.
 
 **Main Question:**  
 How do casual vs member users behave differently, and how can Cyclistic convert casual users into members?
