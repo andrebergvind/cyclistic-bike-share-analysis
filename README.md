@@ -66,7 +66,7 @@ The Tableau dashboard provides professional, interactive visualizations includin
 - **Geo Maps of Popular Start Locations**
 
 ### User Behaviour Overview
-![Dashboard](Consumer_Behaviour_Overview.png)
+![Dashboard](cyclistic-bike-share_analysis.images.Consumer_Behaviour_Overview.png)
 
 
 ### Location Insights
