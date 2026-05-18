@@ -82,7 +82,7 @@ The analysis showcased several differences between casual riders and annual memb
 
 In terms of rides by month, both casual riders and annual members followed a similar overall seasonal pattern, with ride frequency gradually increasing from January onward, peaking in September, and then declining during the later months of the year.
 
-However, despite the similar overall trends, casual riders showcased a noticeably sharper increase in activity during the summer period. From May to June, casual rides increased by approximately 50%, indicating that casual users are more influenced by seasonal factors such as warmer weather, holidays, and outdoor leisure activities compared to annual members.
+However, despite the similar overall trends, casual riders showcased a noticeably sharper increase in activity during the summer period. Between the months of March and June, casual rides increased by approximately 200%, a much stronger spike compared to annual members, indicating that casual users are more influenced by seasonal factors such as warmer weather, holidays, and outdoor leisure activities compared to annual members.
 
 When analyzing weekly ride activity, annual members demonstrated more consistent usage throughout weekdays, indicating that bike-sharing is integrated into their daily commuting and weekday routines. In contrast, casual riders showed significantly higher activity levels during weekends, suggesting a stronger connection to leisure and recreational usage.
 
@@ -112,11 +112,13 @@ The geographic distribution of rides further reinforces the behavioral differenc
 
 
 
-**Conclusion**
+**Conclusion & Reasoning**
 
 Overall, the analysis indicates that annual members and casual riders demonstrate significantly different usage behaviours. Annual members appear to use the service more consistently as part of regular urban transportation and commuting needs, while casual riders show stronger connections to seasonal, recreational, and leisure-oriented usage. 
 
-Following the outcome, we get a better understanding of the behavioural differences between casual riders and members. The data related to casual riders provide valuable insight to the factors that should be considered when developing effective strategies to maximise membership conversion.
+Following the outcome, we get a better understanding of the behavioural differences between these two groups and more importantly, how to attract new annual members. The data related to casual riders provide highly valuable insight to the factors that should be considered when developing effective strategies to maximise membership conversion.
+
+Differences in ride frequency, trip duration, time-of-day activity, and station usage suggest that converting casual riders into annual members may require targeted membership strategies tailored to their more recreational and seasonal usage behavior.
 
 While the main objective is to drive annual memberships, it is important to consider that a large proportion of casual riders may consist of tourists, including one time visitors. Therefore, shorter membership deals such as weekly or over weekend passes could still drive revenue and serve as an effective entry point into the membership ecosystem if the company chooses to expand to other locations.
 
@@ -138,14 +140,11 @@ Positioning annual memberships not only as a financially beneficial option, but 
 
 In order to most effectively target recurring riders, ideally we would require additional data, such as a unique identifier for each rider, not present in this dataset. Nonetheless,the analysis still provides valuable insight into where and when these are most likely to access Cyclistic’s services.
 
-Therefore, marketing efforts should be optimized on the periods and locations where casual rider activity is highest. Seasonal peaks, recreational areas, and weekend usage patterns represent valuable opportunities for increasing awareness of the benefits associated with annual memberships.
+Therefore, marketing efforts should be optimized on the periods rides increase the most and locations where casual rider activity is the highest.
+By launching a campaign running from March to September, increasing promotional activity on weekends, and targeting recreational and tourist-heavy areas, Divvy can maximize campaign exposure from beginning to end of peak seasonal demand.
+This may increase the likelihood of reaching casual riders with the highest potential for future membership conversion.
 
-
-Allowing casual riders to experience the additional convenience and cost benefits associated with memberships may increase the likelihood of long-term conversion into annual members over time.
-
-
-
-Differences in ride frequency, trip duration, time-of-day activity, and station usage suggest that converting casual riders into annual members may require targeted membership strategies tailored to their more recreational and seasonal usage behavior.
+Additionally, offering temporary membership trials or limited promotional discounts may encourage casual riders to experience the additional convenience and cost benefits associated with annual memberships. Allowing riders to directly experience these advantages may increase the likelihood of long-term conversion into annual members over time.
 
 
 ## Key Insights
@@ -182,8 +181,6 @@ We should provide incentives such as discounted first-year memberships, free tri
 In order to most effectively reach the targeted segment we should implement location-based marketing at parks, waterfronts, and tourist-heavy stations.
 Digital billboards and geo-fenced mobile app notifications could serve as efficient means to reach the targets.
 
-
-Decrease the additional payment for rides over 20 min during days 
   
 
   **Additional Recommendation Focusing On Tourists**
