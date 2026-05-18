@@ -166,7 +166,8 @@ Based on the key insights following the analysis, Cyclistic can increase annual 
 
 1. **Promote the long-term value of annual memberships during peak casual rider seasons**
 
-Launch targeted summer and weekend campaigns demonstrating how frequent casual riders could reduce overall ride costs and gain additional benefits by switching to annual memberships.
+Launch targeted summer and weekend campaigns, the periods casual riders showcase highest frequency in use of the service.
+Emphasize how frequent casual riders could reduce overall ride costs and gain additional benefits by switching to annual memberships.
 
 2. **Offer limited-time incentives encouraging casual riders to transition into annual members**
 
@@ -184,5 +185,7 @@ Decrease the additional payment for rides over 20 min during days
   **Additional Recommendation Focusing On Tourists**
 
 1. **Offer a Variety of Membership Types**
-   - Introduce flexible membership options to appeal to the tourist rider segment, such as weekend-only passes and a 1-week tourist membership.
+
+Introduce flexible membership options to appeal to the tourist rider segment, such as weekend-only passes and a 1-week tourist membership.
+Although it does not fully agree with the main purpose of this analysis, it certainly could drive additional revenue and increase customer loyalty with the company and in that way support a stable long term growth.
 
