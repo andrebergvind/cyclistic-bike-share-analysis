@@ -112,7 +112,7 @@ The geographic distribution of rides further reinforces the behavioral differenc
 
 
 
-**Conclusion & Reasoning**
+## Conclusion & Reasoning
 
 Overall, the analysis indicates that annual members and casual riders demonstrate significantly different usage behaviours. Annual members appear to use the service more consistently as part of regular urban transportation and commuting needs, while casual riders show stronger connections to seasonal, recreational, and leisure-oriented usage. 
 
