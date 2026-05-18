@@ -10,6 +10,11 @@ The project was completed as part of the Google Data Analytics Certificate and s
 The director of marketing at Cyclistic believes the company’s future growth depends on maximizing the number of annual memberships. The goal of this project is to analyze how casual riders and annual members use Cyclistic bikes differently, uncover actionable insights, and provide data-driven recommendations to convert casual riders into annual members, ultimately supporting the company’s long-term growth. 
 
 
+In Chicago’s Divvy bike-share system, annual members require to pay an up front fee of 143 dollars per year and can enjoy unlimited 45 minute rides with no unlocking fees. Additional cost per minute is only added when exceeding the 45 minute limit.
+
+In contrast, casual riders pay per ride, with unlocking fees of 1 dollar and additonal per-minute usage rates of 0.22 dollars.
+
+
 **Main Question:**  
 How do casual vs member users behave differently, and how can Cyclistic convert casual users into members?
 
@@ -115,27 +120,25 @@ Following analysis, we get a better understanding of the behavioural differences
 
 While the main objective is to drive annual memberships, it is important to consider that a large proportion of casual riders may consist of tourists, including one time visitors. Therefore, shorter membership deals such as weekly or over weekend passes could still drive revenue and serve as an effective entry point into the membership ecosystem if the company chooses to expand to other locations.
 
-However, with the desired outcome being increased annual memberships rather than short-term membership deals, greater focus should be placed on targeting recurring casual riders and communicating the long-term value, convenience, and financial benefits associated with becoming an annual member.
+However, with the desired outcome being increased annual memberships rather than short-term memberships, greater focus should be placed on targeting recurring casual riders already located in, or frequently visiting the area.
+The key in order to convert these riders is to communicate the financial and long-term benefits associated with becoming an annual member.
+
+The first to consider are the financial benefits of becoming an annual member. As the anaylsis showed an average of 20 minutes trip duration for casual riders, we can, with a broad estimation, calculate an average cost of 5.4 dollars per casual ride.
+This calculation is based on the variable of 0.22 dollars per minute plus the constant of 1 dollar for unlocking the unit.
+
+With annual members paying an up front fee of 143 dollars, without unlocking fees, and additional costs per minute only if exceeding the 45 minute ride limit, a casual rider averaging 20 minutes per usage would breakeven just after 26 rides.
+
+With this reasoning, casual riders whom to this apply, risk overpaying when using Divvys services without an annual membership.
+Understanding the customers needs however is crucial in this stage as the benefits derived from this conclusion may not apply to tourists, but certainly to casual riders using the service regularly. 
+
+In long-term, becoming an annual member can contribute to substantial cost savings for regular casual riders. Not only does the membership reduce overall ride costs, but it also provides greater flexibility and convenience for individuals who frequently rely on the service for spontaneous transportation or recreational purposes.
+
+Furthermore, communicating the long-term environmental benefits associated with annual memberships may strengthen the perceived value of becoming a member. By encouraging more frequent bicycle usage as an alternative to cars or other forms of transportation, users may contribute to reduced traffic congestion, lower carbon emissions, and a more sustainable urban environment.
+Positioning annual memberships not only as a financially beneficial option, but also as a lifestyle choice that supports healthier and more environmentally conscious mobility habits, may increase the attractiveness of membership adoption among recurring casual riders.
 
 In order to most effectively target recurring riders, ideally we would require additional data, such as a unique identifier for each rider, not present in this dataset. Nonetheless,the analysis still provides valuable insight into where and when these are most likely to access Cyclistic’s services.
-Therefore, marketing efforts should be optimized on the periods and locations where casual rider activity is highest. Seasonal peaks, recreational areas, and weekend usage patterns may represent valuable opportunities for increasing awareness of the benefits associated with annual memberships.
+Therefore, marketing efforts should be optimized on the periods and locations where casual rider activity is highest. Seasonal peaks, recreational areas, and weekend usage patterns represent valuable opportunities for increasing awareness of the benefits associated with annual memberships.
 
-In terms of implementing 
-
-
-how digital media could affect their marketing tactics. 
-
-Why would casual riders buy Cyclistic annual memberships?
-
-To answer the main question. 
-
-occasional
-
-the task at hand
-
-considering
-
-Allowing for
 
 Allowing casual riders to experience the additional convenience and cost benefits associated with memberships may increase the likelihood of long-term conversion into annual members over time.
 
@@ -176,7 +179,7 @@ We should provide incentives such as discounted first-year memberships, free tri
 3. **Target casual riders directly at high-traffic recreational stations**
 
 In order to most effectively reach the targeted segment we should implement location-based marketing at parks, waterfronts, and tourist-heavy stations.
-through app notifications, QR campaigns, and digital advertisements that highlight the convenience and economic advantages of becoming an annual member.
+Digital billboards and geo-fenced mobile app notifications could serve as efficient means to reach the targets.
 
 
 Decrease the additional payment for rides over 20 min during days 
