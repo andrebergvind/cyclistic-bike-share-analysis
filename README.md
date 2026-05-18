@@ -111,8 +111,6 @@ A geographic analysis revealed additional clear differences between the groups i
 The geographic distribution of rides further reinforces the behavioral differences observed throughout the analysis. While annual members display movement patterns centered around efficiency and urban mobility, casual riders demonstrate usage patterns more strongly connected to seasonal, recreational, and tourism-related activities.
 
 
-Eventhough a small detection was made about the increasing rides over months favouring summer months for casual riders, the pattern could simply suggest a bigger number of tourists during these months rather than...
-What was more interesting to see was 
 
 **Conclusion**
 
