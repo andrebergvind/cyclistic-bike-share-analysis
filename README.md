@@ -1,5 +1,5 @@
 # Cyclistic Bike Share Analysis
-A marketing and consumer behaviour data analysis project, exploring behavioral differences between casual riders and members using Excel, SQL (BigQuery) and Tableau, with insights to support customer conversion strategies.
+A marketing and consumer behviour data analysis project exploring behavioral differences between casual riders and members using Excel, SQL (BigQuery) and Tableau, with insights to support customer conversion strategies.
 In this project, I assume the role of a Junior Data Analyst on the marketing analytics team at Cyclistic, a bike-share company based in Chicago.
 
 The project was completed as part of the Google Data Analytics Certificate and served as the final capstone project required for certification.
@@ -7,7 +7,13 @@ The project was completed as part of the Google Data Analytics Certificate and s
 ## Project Overview
 
 **Business Task:**  
-The director of marketing at Cyclistic believes the company’s future growth depends on maximizing the number of annual memberships. The objective of the project was to analyze how casual riders and annual members use Cyclistic bikes differently, uncover actionable insights, and provide data-driven recommendations to convert casual riders into annual members.
+The director of marketing at Cyclistic believes the company’s future growth depends on maximizing the number of annual memberships. The goal of this project is to analyze how casual riders and annual members use Cyclistic bikes differently, uncover actionable insights, and provide data-driven recommendations to convert casual riders into annual members, ultimately supporting the company’s long-term growth. 
+
+**User Conditions:**
+In Chicago’s Divvy bike-share system, annual members require to pay an up front fee of 143 dollars per year and can enjoy unlimited 45 minute rides with no unlocking fees. Additional cost per minute is only added when exceeding the 45 minute limit.
+
+In contrast, casual riders pay per ride, with unlocking fees of 1 dollar and additonal per-minute usage rates of 0.22 dollars.
+
 
 **Main Question:**  
 How do casual vs member users behave differently, and how can Cyclistic convert casual users into members?
@@ -54,7 +60,7 @@ The analysis used the Cyclistic bike share dataset, which includes 12 months of 
 The cleaned dataset was stored as `cleaned_tripdata` and used for all subsequent analysis.
 
 
-## Dashboard
+## Visualizations
 
 The Tableau dashboard provides professional, interactive visualizations including:
 
@@ -65,13 +71,12 @@ The Tableau dashboard provides professional, interactive visualizations includin
 - **Top 10 Popular Start Stations** (Members vs Casuals)  
 - **Geo Maps of Popular Start Locations**
 
-### User Behaviour Overview
+  ### User Behaviour Overview
 ![Dashboard](./cyclistic-bike-share-analysis/images/User_Behaviour_Overview.png)
 
 
 ### Location Insights
 ![Dashboard](./cyclistic-bike-share-analysis/images/Location_Insights.png)
-
 
 > **Link to interactive dashboard:** [Tableau Public Dashboard](https://public.tableau.com/views/CyclisticAnalysis_17737226068460/UserBehaviourOverview?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
 
@@ -84,7 +89,7 @@ The analysis showcased several differences between casual riders and annual memb
 
 In terms of rides by month, both casual riders and annual members followed a similar overall seasonal pattern, with ride frequency gradually increasing from January onward, peaking in September, and then declining during the later months of the year.
 
-However, despite the similar overall trends, casual riders showcased a noticeably sharper increase in activity during the summer period. From May to June, casual rides increased by approximately 50%, indicating that casual users are more influenced by seasonal factors such as warmer weather, holidays, and outdoor leisure activities compared to annual members.
+However, despite the similar overall trends, casual riders showcased a noticeably sharper increase in activity during the summer period. Between the months of March and June, casual rides increased by approximately 200%, a much stronger spike compared to annual members, indicating that casual users are more influenced by seasonal factors such as warmer weather, holidays, and outdoor leisure activities compared to annual members.
 
 When analyzing weekly ride activity, annual members demonstrated more consistent usage throughout weekdays, indicating that bike-sharing is integrated into their daily commuting and weekday routines. In contrast, casual riders showed significantly higher activity levels during weekends, suggesting a stronger connection to leisure and recreational usage.
 
@@ -113,14 +118,40 @@ A geographic analysis revealed additional clear differences between the groups i
 The geographic distribution of rides further reinforces the behavioral differences observed throughout the analysis. While annual members display movement patterns centered around efficiency and urban mobility, casual riders demonstrate usage patterns more strongly connected to seasonal, recreational, and tourism-related activities.
 
 
-Eventhough a small detection was made about the increasing rides over months favouring summer months for casual riders, the pattern could simply suggest a bigger number of tourists during these months rather than...
-What was more interesting to see was 
 
-**Conclusion**
+## Conclusion & Reasoning
 
 Overall, the analysis indicates that annual members and casual riders demonstrate significantly different usage behaviours. Annual members appear to use the service more consistently as part of regular urban transportation and commuting needs, while casual riders show stronger connections to seasonal, recreational, and leisure-oriented usage. 
 
+Following the outcome, we get a better understanding of the behavioural differences between these two groups and more importantly, how to attract new annual members. The data related to casual riders provide highly valuable insight to the factors that should be considered when developing effective strategies to maximise membership conversion.
+
 Differences in ride frequency, trip duration, time-of-day activity, and station usage suggest that converting casual riders into annual members may require targeted membership strategies tailored to their more recreational and seasonal usage behavior.
+
+While the main objective is to drive annual memberships, it is important to consider that a large proportion of casual riders may consist of tourists, including one time visitors. Therefore, shorter membership deals such as weekly or over weekend passes could still drive revenue and serve as an effective entry point into the membership ecosystem if the company chooses to expand to other locations.
+
+However, with the desired outcome being increased annual memberships rather than short-term memberships, greater focus should be placed on targeting recurring casual riders already located in, or frequently visiting the area.
+The key in order to convert these riders is to communicate the financial and long-term benefits associated with becoming an annual member.
+
+The first to consider are the financial benefits of becoming an annual member. As the anaylsis showed an average of 20 minutes trip duration for casual riders, we can, with a broad estimation, calculate an average cost of 5.4 dollars per casual ride.
+This calculation is based on the variable of 0.22 dollars per minute plus the constant of 1 dollar for unlocking the unit.
+
+With annual members paying an up front fee of 143 dollars, without unlocking fees, and additional costs per minute only if exceeding the 45 minute ride limit, a casual rider averaging 20 minutes per usage would breakeven just after 26 rides.
+
+With this reasoning, casual riders whom to this apply, risk overpaying when using Divvys services without an annual membership.
+Understanding the customers needs however is crucial in this stage as the benefits derived from this conclusion may not apply to tourists, but certainly to casual riders using the service regularly. 
+
+In long-term, becoming an annual member can contribute to substantial cost savings for regular casual riders. Not only does the membership reduce overall ride costs, but it also provides greater flexibility and convenience for individuals who frequently rely on the service for spontaneous transportation or recreational purposes.
+
+Furthermore, communicating the long-term environmental benefits associated with annual memberships may strengthen the perceived value of becoming a member. By encouraging more frequent bicycle usage as an alternative to cars or other forms of transportation, users may contribute to reduced traffic congestion, lower carbon emissions, and a more sustainable urban environment.
+Positioning annual memberships not only as a financially beneficial option, but also as a lifestyle choice that supports healthier and more environmentally conscious mobility habits, may increase the attractiveness of membership adoption among recurring casual riders.
+
+In order to most effectively target recurring riders, ideally we would require additional data, such as a unique identifier for each rider, not present in this dataset. Nonetheless,the analysis still provides valuable insight into where and when these are most likely to access Cyclistic’s services.
+
+Therefore, marketing efforts should be optimized on the periods rides increase the most and locations where casual rider activity is the highest.
+By launching a campaign running from March to September, increasing promotional activity on weekends, and targeting recreational and tourist-heavy areas, Divvy can maximize campaign exposure from beginning to end of peak seasonal demand.
+This may increase the likelihood of reaching casual riders with the highest potential for future membership conversion.
+
+Additionally, offering temporary membership trials or limited promotional discounts may encourage casual riders to experience the additional convenience and cost benefits associated with annual memberships. Allowing riders to directly experience these advantages may increase the likelihood of long-term conversion into annual members over time.
 
 
 ## Key Insights
@@ -140,17 +171,28 @@ Station usage patterns revealed that casual riders are more commonly associated 
 
 ## Recommendations
 
-Based on the analysis, Cyclistic can increase annual memberships by:
+Based on the key insights following the analysis, Cyclistic can increase annual memberships by:
+  
 
-1. **Offer a Variety of Membership Types**
-   - Target tourists and other leisure riders promoting weekend or week memberships 
-   - Introduce flexible membership options to appeal to different rider segments, such as weekend-only passes, 1-week tourist memberships, or short-term trial memberships
+1. **Promote the long-term value of annual memberships during peak casual rider seasons**
 
-2. **Target Marketing by Ride Behavior**
-   - Identify casual users with frequent weekend usage or long-duration rides
-   - Tailor messaging to highlight benefits that resonate with these behaviors, for example, “Unlimited weekend rides with a membership”
+Launch targeted summer and weekend campaigns, the periods casual riders showcase highest frequency in use of the service.
+Emphasize how frequent casual riders could reduce overall ride costs and gain additional benefits by switching to annual memberships.
 
-3. **Localized Engagement**
-   - Focus on recreational and tourist-heavy areas for membership campaigns
-   - Place advertisements or QR code offers at popular casual start stations to capture new members 
+2. **Offer limited-time incentives encouraging casual riders to transition into annual members**
 
+We should provide incentives such as discounted first-year memberships, free trial periods, or reward programs for casual riders with high ride frequency or long-duration trips to lower the barrier toward membership conversion.
+
+3. **Target casual riders directly at high-traffic recreational stations**
+
+In order to most effectively reach the targeted segment we should implement location-based marketing at parks, waterfronts, and tourist-heavy stations.
+Digital billboards and geo-fenced mobile app notifications could serve as efficient means to reach the targets.
+
+  
+
+  **Additional Recommendation Focusing On Tourists**
+
+4. **Offer a Variety of Membership Types**
+
+Introduce flexible membership options to appeal to the tourist rider segment, such as weekend-only passes and a 1-week tourist membership.
+Although it does not fully agree with the main purpose of this analysis, it certainly could drive additional revenue and increase customer loyalty with the company and in that way support a stable long term growth.
