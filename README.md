@@ -9,7 +9,7 @@ The project was completed as part of the Google Data Analytics Certificate and s
 **Business Task:**  
 The director of marketing at Cyclistic believes the company’s future growth depends on maximizing the number of annual memberships. The goal of this project is to analyze how casual riders and annual members use Cyclistic bikes differently, uncover actionable insights, and provide data-driven recommendations to convert casual riders into annual members, ultimately supporting the company’s long-term growth. 
 
-
+**Conditions**
 In Chicago’s Divvy bike-share system, annual members require to pay an up front fee of 143 dollars per year and can enjoy unlimited 45 minute rides with no unlocking fees. Additional cost per minute is only added when exceeding the 45 minute limit.
 
 In contrast, casual riders pay per ride, with unlocking fees of 1 dollar and additonal per-minute usage rates of 0.22 dollars.
@@ -116,7 +116,9 @@ What was more interesting to see was
 
 **Conclusion**
 
-Following analysis, we get a better understanding of the behavioural differences between casual riders and members. The data related to casual riders provide valuable insight to the factors that should be considered when developing effective strategies to maximise membership conversion.
+Overall, the analysis indicates that annual members and casual riders demonstrate significantly different usage behaviours. Annual members appear to use the service more consistently as part of regular urban transportation and commuting needs, while casual riders show stronger connections to seasonal, recreational, and leisure-oriented usage. 
+
+Following the outcome, we get a better understanding of the behavioural differences between casual riders and members. The data related to casual riders provide valuable insight to the factors that should be considered when developing effective strategies to maximise membership conversion.
 
 While the main objective is to drive annual memberships, it is important to consider that a large proportion of casual riders may consist of tourists, including one time visitors. Therefore, shorter membership deals such as weekly or over weekend passes could still drive revenue and serve as an effective entry point into the membership ecosystem if the company chooses to expand to other locations.
 
@@ -137,12 +139,13 @@ Furthermore, communicating the long-term environmental benefits associated with 
 Positioning annual memberships not only as a financially beneficial option, but also as a lifestyle choice that supports healthier and more environmentally conscious mobility habits, may increase the attractiveness of membership adoption among recurring casual riders.
 
 In order to most effectively target recurring riders, ideally we would require additional data, such as a unique identifier for each rider, not present in this dataset. Nonetheless,the analysis still provides valuable insight into where and when these are most likely to access Cyclistic’s services.
+
 Therefore, marketing efforts should be optimized on the periods and locations where casual rider activity is highest. Seasonal peaks, recreational areas, and weekend usage patterns represent valuable opportunities for increasing awareness of the benefits associated with annual memberships.
 
 
 Allowing casual riders to experience the additional convenience and cost benefits associated with memberships may increase the likelihood of long-term conversion into annual members over time.
 
-Overall, the analysis indicates that annual members and casual riders demonstrate significantly different usage behaviours. Annual members appear to use the service more consistently as part of regular urban transportation and commuting needs, while casual riders show stronger connections to seasonal, recreational, and leisure-oriented usage. 
+
 
 Differences in ride frequency, trip duration, time-of-day activity, and station usage suggest that converting casual riders into annual members may require targeted membership strategies tailored to their more recreational and seasonal usage behavior.
 
