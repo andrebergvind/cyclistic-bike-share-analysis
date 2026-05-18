@@ -69,7 +69,14 @@ The Tableau dashboard provides professional, interactive visualizations includin
 - **Rides by Day** (Grouped by member vs casual)  
 - **Ride Start Time Distribution** (Hourly)   
 - **Top 10 Popular Start Stations** (Members vs Casuals)  
-- **Geo Maps of Popular Start Locations**  
+- **Geo Maps of Popular Start Locations**
+
+  ### User Behaviour Overview
+![Dashboard](./cyclistic-bike-share-analysis/images/User_Behaviour_Overview.png)
+
+
+### Location Insights
+![Dashboard](./cyclistic-bike-share-analysis/images/Location_Insights.png)
 
 > **Link to interactive dashboard:** [Tableau Public Dashboard](https://public.tableau.com/views/CyclisticAnalysis_17737226068460/UserBehaviourOverview?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
 
@@ -185,7 +192,7 @@ Digital billboards and geo-fenced mobile app notifications could serve as effici
 
   **Additional Recommendation Focusing On Tourists**
 
-1. **Offer a Variety of Membership Types**
+4. **Offer a Variety of Membership Types**
 
 Introduce flexible membership options to appeal to the tourist rider segment, such as weekend-only passes and a 1-week tourist membership.
 Although it does not fully agree with the main purpose of this analysis, it certainly could drive additional revenue and increase customer loyalty with the company and in that way support a stable long term growth.
