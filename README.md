@@ -58,7 +58,8 @@ The analysis used the Cyclistic bike share dataset, which includes 12 months of 
 ## Tools Used
 
 - **Excel**
-- 
+- **SQL (BigQuery)**
+- **Tableau**
 
 ## Data Cleaning & Transformation
 
