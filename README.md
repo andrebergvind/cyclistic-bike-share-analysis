@@ -89,15 +89,6 @@ The cleaned dataset was stored as `cleaned_tripdata` and used for all subsequent
 
 ## Dashboards
 
-The Tableau dashboard provides professional, interactive visualizations including:
-
-- **Average Trip Duration by User Type** (Bar chart)  
-- **Rides by Month** (Grouped by member vs casual)  
-- **Rides by Day** (Grouped by member vs casual)  
-- **Ride Start Time Distribution** (Hourly)   
-- **Top 10 Popular Start Stations** (Members vs Casuals)  
-- **Geo Maps of Popular Start Locations**
-
 ### User Behaviour Overview
 ![Dashboard](./cyclistic-bike-share-analysis/images/User_Behaviour_Overview.png)
 
@@ -110,7 +101,7 @@ The Tableau dashboard provides professional, interactive visualizations includin
 
 ## Analysis
 
-The analysis showcased several differences between casual riders and annual members in terms of ride behavior, usage frequency, trip duration, and geographic movement patterns. By examining trends across time, location, and ride activity, the analysis provides deeper insight into how the two customer groups appear to use Cyclistic’s bike-sharing services for different purposes.
+The analysis showcases several differences between casual riders and annual members in terms of ride behavior, usage frequency, trip duration, and geographic movement patterns. By examining trends across time, location, and ride activity, the analysis provides deeper insight into how the two customer groups appear to use Cyclistic’s bike-sharing services for different purposes.
 
 **Ride Frequency**
 
@@ -183,13 +174,13 @@ Additionally, offering temporary membership trials or limited promotional discou
 
 ## Key Insights
 
-1. **Casual riders are highly influenced by seasonality and leisure-oriented usage**
+1. **Casual riders are highly influenced by seasonality and leisure oriented usage**
 
-Casual riders showed significantly higher activity during summer months and weekends compared to annual members, suggesting that many users primarily rely on the service for recreational and occasional travel rather than daily commuting.
+Casual riders showed significantly higher increase in activity during summer months and weekends compared to annual members. This outcome suggests that many casual users primarily rely on the service for recreational and occasional travel rather than daily commuting.
 
 2. **Casual riders tend to take longer and more flexible trips**
 
-Compared to annual members, casual riders recorded substantially longer ride durations and a more gradual increase in activity throughout the day. This indicates a preference for flexible and experience-oriented usage rather than short, routine transportation.
+Compared to annual members, casual riders recorded substantially longer ride durations and a more gradual increase in activity throughout the day. This indicates a preference for flexible and experience oriented usage rather than short, routine transportation.
 
 3. **Casual riders are strongly connected to recreational and tourist-heavy areas**
 
@@ -218,6 +209,8 @@ Digital billboards and geo-fenced mobile app notifications could serve as effici
   
 
   **Additional Recommendation Focusing On Tourists**
+
+As a supplement to only aim for an increased membership conversion, Cyclistic has a strong possibility of increasing revenue by targeting tourists. In order to do so, they can:
 
 4. **Offer a Variety of Membership Types**
 
