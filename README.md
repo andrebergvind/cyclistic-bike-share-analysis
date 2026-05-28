@@ -4,6 +4,27 @@ In this project, I assume the role of a Junior Data Analyst on the marketing ana
 
 The project was completed as part of the Google Data Analytics Certificate and served as the final capstone project required for certification.
 
+## Project Structure
+
+[Project Overview](#project-overview)
+
+[Data Source](#data-source)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning & Transformation](#data-cleaning--transformation)
+
+[Dashboards](#dashboards)
+
+[Analysis](#analysis)
+
+[Conclusion & Reasoning](#conclusion--reasoning)
+
+[Key Insights](#key-insights)
+
+[Recommendations](#recommendations)
+
+
 ## Project Overview
 
 **Business Task:**  
@@ -19,7 +40,7 @@ In contrast, casual riders pay per ride, with unlocking fees of 1 dollar and add
 How do casual vs member users behave differently, and how can Cyclistic convert casual users into members?
 
 
-## Data Sources
+## Data Source
 
 The analysis used the Cyclistic bike share dataset, which includes 12 months of ride data ranging from July 2024 to June 2025. Key fields include:
 
@@ -33,6 +54,11 @@ The analysis used the Cyclistic bike share dataset, which includes 12 months of 
 > **Note:** Due to file size restrictions, the full dataset is not included. It can be accessed via the original Cyclistic Divvy data sources.
 
 
+
+## Tools Used
+
+- **Excel**
+- 
 
 ## Data Cleaning & Transformation
 
@@ -60,7 +86,7 @@ The analysis used the Cyclistic bike share dataset, which includes 12 months of 
 The cleaned dataset was stored as `cleaned_tripdata` and used for all subsequent analysis.
 
 
-## Visualizations
+## Dashboards
 
 The Tableau dashboard provides professional, interactive visualizations including:
 
@@ -71,7 +97,7 @@ The Tableau dashboard provides professional, interactive visualizations includin
 - **Top 10 Popular Start Stations** (Members vs Casuals)  
 - **Geo Maps of Popular Start Locations**
 
-  ### User Behaviour Overview
+### User Behaviour Overview
 ![Dashboard](./cyclistic-bike-share-analysis/images/User_Behaviour_Overview.png)
 
 
