@@ -42,16 +42,9 @@ How do casual vs member users behave differently, and how can Cyclistic convert 
 
 ## Data Source
 
-The analysis used the Cyclistic bike share dataset, which includes 12 months of ride data ranging from July 2024 to June 2025. Key fields include:
+The analysis used a 12 month Cyclistic bike share dataset ranging from July 2024 to June 2025.
 
-- `ride_id`: Unique identifier for each ride  
-- `rideable_type`: Type of bike (classic_bike, electric_bike, electric_scooter)  
-- `started_at` / `ended_at`: Ride timestamps  
-- `start_station_name` / `end_station_name`: Station information  
-- `start_lat` / `start_lng` / `end_lat` / `end_lng`: Coordinates of start and end points  
-- `member_casual`: User type (casual or member)
-
-> **Note:** Due to file size restrictions, the full dataset is not included but can be accessed via the original Cyclistic Divvy data sources found here: [Divvy Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
+Due to file size restrictions, the full dataset is not included but can be accessed via the original Cyclistic Divvy data sources found here: [Divvy Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 
 
