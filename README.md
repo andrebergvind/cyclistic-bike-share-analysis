@@ -51,7 +51,7 @@ The analysis used the Cyclistic bike share dataset, which includes 12 months of 
 - `start_lat` / `start_lng` / `end_lat` / `end_lng`: Coordinates of start and end points  
 - `member_casual`: User type (casual or member)
 
-> **Note:** Due to file size restrictions, the full dataset is not included. It can be accessed via the original Cyclistic Divvy data sources.
+> **Note:** Due to file size restrictions, the full dataset is not included but can be accessed via the original Cyclistic Divvy data sources found here: [Divvy Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 
 
