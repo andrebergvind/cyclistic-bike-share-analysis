@@ -80,7 +80,7 @@ The full process and justifications can be found here: [Cleaning Queries](./cycl
 ### Location Insights
 ![Dashboard](./cyclistic-bike-share-analysis/images/Location_Insights.png)
 
-> **Link to interactive dashboard:** [Tableau Public Dashboard](https://public.tableau.com/views/CyclisticAnalysis_17737226068460/UserBehaviourOverview?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
+**Link to interactive dashboard:** [Tableau Public Dashboard](https://public.tableau.com/views/CyclisticAnalysis_17737226068460/UserBehaviourOverview?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
 
 
 ## Analysis
