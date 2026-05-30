@@ -56,28 +56,19 @@ Due to file size restrictions, the full dataset is not included but can be acces
 
 ## Data Cleaning & Transformation
 
-1. **Filtering invalid rides**  
-   - Removed rides with `ended_at < started_at`.  
-   - Excluded rides shorter than 1 minute or longer than 24 hours (131,461 rows removed).
+The process started by downloading a dataset for each month between July 2024 and June 2025 from Divvy database.
+Later, the csv files were uploaded to BigQuery using buckets on Google Cloud Storage.
 
-2. **Handling missing station data**  
-   - Some electric bikes and scooters lack station names.  
-   - These records were retained to avoid skewing the analysis; NULL station values were filtered at the visualization stage when necessary.
+However, before including SQL in the process, an initial examination of the data was performed using Excel. Due to the size of the datasets combined, each file required individual exploration.
+Using filters, aggregation formulas, and pivot tables, an enhanced understanding of the data was provided. Worth noting was some null values and rides ending before they started. These inconsistencies were later explored further in BigQuery.
 
-3. **Feature engineering**  
-   - Created new time-based columns:
-     - `ride_month` → Month of the ride  
-     - `ride_weekday` → Day of the week  
-     - `start_time` / `end_time` → Time of day for ride start/end  
-   - Calculated `duration_min` for consistent ride duration analysis.
+Using SQL, an initital pre-cleaning phase was performed to conduct a more profound understanding of the data, potential errors, and its overall capabilities to provide meaningful insights. Overall, this step served as the foundation for data validation and the identification of cleaning requirements.
+The full process and justifications can be found here: [Pre-Cleaning SQL Queries](./SQL/pre_cleaning_SQL.txt)
 
-4. **Data validation steps**  
-   - Checked for null values across all columns  
-   - Verified `rideable_type` and `member_casual` categories  
-   - Ensured `ride_id` uniqueness and length consistency  
-   - Validated geographic coordinates for all rides
+To conclude the cleaning and transformation process, over 130.000 rows containing errors removed in order to provide a fair analysis.
+Additionally, new columns were created to facilitate the understanding of behavioural usage patterns.
+The full process and justifications can be found here: [Cleaning Queries](./SQL/cleaning_phase_SQL.txt)
 
-The cleaned dataset was stored as `cleaned_tripdata` and used for all subsequent analysis.
 
 
 ## Dashboards
