@@ -12,8 +12,9 @@ SELECT
   data_type,
   is_nullable
 FROM `driven-realm-460621-r2.cyclistic_project.INFORMATION_SCHEMA.COLUMNS`
-WHERE table_name = 'full_year_tripdata';
+WHERE table_name = 'full_year_tripdata'
 
+Result: No signs of inconcistencies
 
 -- -----------------------------------------------------
 
@@ -23,7 +24,7 @@ WHERE table_name = 'full_year_tripdata';
 -- I explored the distinct ride types to ensure consistency with Cyclistic’s offerings and to verify that no unexpected categories were present.
 
 SELECT DISTINCT rideable_type
-FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`;
+FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`
 
 -- Result: Only the expected categories were present: classic_bike, electric_bike, electric_scooter
 
@@ -36,7 +37,7 @@ FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`;
 -- I checked the distinct values in the member_casual column to ensure proper segmentation between casual riders and annual members.
 
 SELECT DISTINCT member_casual
-FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`;
+FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`
 
 -- Result: Two categories identified: 'casual' and 'member'
 
@@ -46,14 +47,14 @@ FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`;
 -- Step 4: Validate Ride ID Consistency
 -- Purpose: Ensure ride_id format is consistent
 
--- I analyzed the length distribution of ride_id values. 
--- Consistent length indicates standardized formatting.
+-- I examined the length distribution of ride_id values. 
+-- Consistent length indicates standardised formatting.
 
 SELECT 
   LENGTH(ride_id) AS id_length, 
   COUNT(*) AS count
 FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`
-GROUP BY id_length;
+GROUP BY id_length
 
 -- Result: All ride_id values are 16 characters long
 
@@ -61,9 +62,7 @@ GROUP BY id_length;
 -- -----------------------------------------------------
 
 -- Step 5: Check for Duplicate Ride IDs
--- Purpose: Ensure each trip record is unique
-
--- Duplicate IDs could lead to incorrect aggregations and skew analysis.
+-- Purpose: Ensure each trip record is unique since duplicate IDs could lead to incorrect aggregations and a skewed analysis.
 
 SELECT 
   ride_id, 
@@ -71,17 +70,17 @@ SELECT
 FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`
 GROUP BY ride_id
 HAVING COUNT(*) > 1
-ORDER BY count DESC;
+ORDER BY count DESC
 
 -- Result: No duplicate ride_id values found
 
 
 -- -----------------------------------------------------
 
--- Step 6: Check for Missing Values
+-- Step 6: Check for Missing Values in the dataset
 -- Purpose: Identify null values across key fields
 
--- This step helps assess data completeness and identify columns that may require cleaning or exclusion.
+-- This step helped assess data completeness and identify rows that may require cleaning or exclusion.
 
 SELECT
   COUNTIF(ride_id IS NULL) AS missing_ride_id,
@@ -97,9 +96,9 @@ SELECT
   COUNTIF(end_lat IS NULL) AS missing_end_lat,
   COUNTIF(end_lng IS NULL) AS missing_end_lng,
   COUNTIF(member_casual IS NULL) AS missing_member_casual
-FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`;
+FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`
 
--- Observation: Missing values were identified primarily in:
+-- Result: Missing values were identified primarily in:
 -- start_station_name, end_station_name, station IDs, and coordinate fields
 
 
@@ -114,7 +113,7 @@ WHERE
   start_lat NOT BETWEEN -90 AND 90 OR
   end_lat NOT BETWEEN -90 AND 90 OR
   start_lng NOT BETWEEN -180 AND 180 OR
-  end_lng NOT BETWEEN -180 AND 180;
+  end_lng NOT BETWEEN -180 AND 180
 
 -- Result: No invalid geographic coordinates detected
 
@@ -128,7 +127,7 @@ WHERE
 
 SELECT *
 FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`
-WHERE ended_at < started_at;
+WHERE ended_at < started_at
 
 -- Result: Invalid records identified and flagged for removal
 
@@ -138,7 +137,7 @@ WHERE ended_at < started_at;
 -- Step 9: Identify Duration Outliers
 -- Purpose: Detect unrealistic trip durations
 
--- Trips shorter than 1 minute or longer than 24 hours are considered anomalies.
+-- Trips shorter than 1 minute or longer than 24 hours were considered as anomalies.
 
 SELECT 
   ride_id,
@@ -151,7 +150,7 @@ WHERE
   TIMESTAMP_DIFF(ended_at, started_at, MINUTE) < 1
   OR 
   TIMESTAMP_DIFF(ended_at, started_at, MINUTE) > 1440
-ORDER BY duration_min DESC;
+ORDER BY duration_min DESC
 
 -- Finding: 131,461 trips fell outside the valid duration range 
 -- and were excluded during the data cleaning process
