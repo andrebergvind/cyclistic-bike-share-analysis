@@ -190,7 +190,7 @@ We should provide incentives such as discounted first-year memberships, free tri
 In order to most effectively reach the targeted segment we should implement location-based marketing at parks, waterfronts, and tourist-heavy stations.
 Digital billboards and geo-fenced mobile app notifications could serve as efficient means to reach the targets.
 
-  
+ --- 
 
   **Additional Recommendation Focusing On Tourists**
 
