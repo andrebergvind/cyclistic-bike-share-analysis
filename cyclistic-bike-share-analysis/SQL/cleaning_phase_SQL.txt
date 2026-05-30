@@ -53,7 +53,8 @@ SELECT
     TIMESTAMP_DIFF(ended_at, started_at, MINUTE) AS duration_min
 FROM `driven-realm-460621-r2.cyclistic_project.cleaned_tripdata`
 
-
+-- -----------------------------------------------------
+**Justifications**
 -- -----------------------------------------------------
 
 -- Justification for actions: Handling Missing Station Data
