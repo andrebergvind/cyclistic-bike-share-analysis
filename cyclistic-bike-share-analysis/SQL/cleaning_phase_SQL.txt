@@ -54,7 +54,7 @@ SELECT
 FROM `driven-realm-460621-r2.cyclistic_project.cleaned_tripdata`
 
 -- -----------------------------------------------------
-**Justifications**
+JUSTIFICATIONS
 -- -----------------------------------------------------
 
 -- Justification for actions: Handling Missing Station Data
