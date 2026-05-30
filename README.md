@@ -63,11 +63,11 @@ However, before including SQL in the process, an initial examination of the data
 Using filters, aggregation formulas, and pivot tables, an enhanced understanding of the data was provided. Worth noting was some null values and rides ending before they started. These inconsistencies were later explored further in BigQuery.
 
 Using SQL, an initital pre-cleaning phase was performed to conduct a more profound understanding of the data, potential errors, and its overall capabilities to provide meaningful insights. Overall, this step served as the foundation for data validation and the identification of cleaning requirements.
-The full process and justifications can be found here: [Pre-Cleaning SQL Queries](./SQL/pre_cleaning_SQL.txt)
+The full process and justifications can be found here: [Pre-Cleaning SQL Queries](../SQL/pre_cleaning_SQL.txt)
 
 To conclude the cleaning and transformation process, over 130.000 rows containing errors removed in order to provide a fair analysis.
 Additionally, new columns were created to facilitate the understanding of behavioural usage patterns.
-The full process and justifications can be found here: [Cleaning Queries](./SQL/cleaning_phase_SQL.txt)
+The full process and justifications can be found here: [Cleaning Queries](../SQL/cleaning_phase_SQL.txt)
 
 
 
