@@ -5,10 +5,10 @@
 -- Step 1: Create Cleaned Dataset
 -- Purpose: Remove invalid records and prepare data for analysis
 
--- I created a new cleaned table by filtering out invalid trips and selecting only relevant fields for analysis. 
--- This ensures that downstream insights are based on accurate and reliable data.
+-- I created a new cleaned table by filtering out invalid trips detected in the pre cleaning phase, and selecting only relevant fields for analysis. 
+-- This ensures that insights are based on accurate and reliable data.
 
-CREATE OR REPLACE TABLE `driven-realm-460621-r2.cyclistic_project.cleaned_tripdata` AS
+CREATE TABLE `driven-realm-460621-r2.cyclistic_project.cleaned_tripdata` AS
 SELECT
   ride_id,
   rideable_type,
@@ -18,7 +18,26 @@ SELECT
   start_lng,
   end_lat,
   end_lng,
-  member_casual,
+  member_casual
+FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`
+WHERE ended_at > started_at
+  AND TIMESTAMP_DIFF(ended_at, started_at, MINUTE) BETWEEN 1 AND 1440
+
+
+
+
+-- Step 2: Clean the new table
+-- Data Cleaning: Remove invalid and unrealistic trips
+
+
+WHERE ended_at > started_at
+  AND TIMESTAMP_DIFF(ended_at, started_at, MINUTE) BETWEEN 1 AND 1440;
+
+-- Result: Removed 131,461 records with invalid or unrealistic durations
+
+
+
+
 
   -- Feature Engineering: Time-based variables
   FORMAT_DATE('%B', DATE(started_at)) AS ride_month,
@@ -31,11 +50,7 @@ SELECT
 
 FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`
 
--- Data Cleaning: Remove invalid and unrealistic trips
-WHERE ended_at > started_at
-  AND TIMESTAMP_DIFF(ended_at, started_at, MINUTE) BETWEEN 1 AND 1440;
 
--- Result: Removed 131,461 records with invalid or unrealistic durations
 
 
 -- -----------------------------------------------------
