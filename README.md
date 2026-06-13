@@ -1,8 +1,8 @@
 # Cyclistic Bike Share Analysis
-A marketing and consumer behviour data analysis project exploring behavioral differences between casual riders and members using Excel, SQL (BigQuery) and Tableau, with insights to support customer conversion strategies.
-In this project, I assume the role of a Junior Data Analyst on the marketing analytics team at Cyclistic, a bike-share company based in Chicago.
+A marketing and consumer behviour data analysis exploring behavioral differences between casual riders and members for Cyclistic, a fictional bike share company operating in Chicago.
 
-The project was completed as part of the Google Data Analytics Certificate and served as the final capstone project required for certification.
+The project was completed as part of the Google Data Analytics Certificate and served as the final capstone project of the course.
+
 
 ## Project Structure
 
@@ -28,10 +28,10 @@ The project was completed as part of the Google Data Analytics Certificate and s
 ## Project Overview
 
 **Business Task:**  
-The director of marketing at Cyclistic believes the company’s future growth depends on maximizing the number of annual memberships. The goal of this project is to analyze how casual riders and annual members use Cyclistic bikes differently, uncover actionable insights, and provide data-driven recommendations to convert casual riders into annual members, ultimately supporting the company’s long-term growth. 
+The director of marketing at Cyclistic believes the company’s future growth depends on maximising the number of annual memberships. Therefore, i have been given the task to analyse how casual riders and annual members use Cyclistic bikes differently, uncover actionable insights, and provide recommendations to convert casual riders into annual members.
 
 **User Conditions:**
-In Chicago’s Divvy bike-share system, annual members require to pay an up front fee of 143 dollars per year and can enjoy unlimited 45 minute rides with no unlocking fees. Additional cost per minute is only added when exceeding the 45 minute limit.
+In Cyclistics’s bike share system, annual members require to pay an up front fee of 143 dollars per year and can enjoy unlimited 45 minute rides with no unlocking fees. Additional cost per minute is only added when exceeding the 45 minute limit.
 
 In contrast, casual riders pay per ride, with unlocking fees of 1 dollar and additonal per-minute usage rates of 0.22 dollars.
 
@@ -42,9 +42,9 @@ How do casual vs member users behave differently, and how can Cyclistic convert 
 
 ## Data Source
 
-The analysis used a 12 month Cyclistic bike share dataset ranging from July 2024 to June 2025.
+The analysis used a 12 month Divvy bike share dataset ranging from July 2024 to June 2025.
 
-Due to file size restrictions, the full dataset is not included but can be accessed via the original Cyclistic Divvy data sources found here: [Divvy Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
+Due to file size restrictions, the full dataset is not included but can be accessed via the original Divvy data sources found here: [Divvy Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 
 
@@ -85,7 +85,9 @@ The full process and justifications can be found here: [Cleaning Queries](./cycl
 
 ## Analysis
 
-The analysis showcases several differences between casual riders and annual members in terms of ride behavior, usage frequency, trip duration, and geographic movement patterns. By examining trends across time, location, and ride activity, the analysis provides deeper insight into how the two customer groups appear to use Cyclistic’s bike-sharing services for different purposes.
+The outcome highlights several differences between casual riders and annual members in terms of ride behavior, usage frequency, trip duration, and geographic movement patterns. 
+
+By examining trends across time, location, and ride activity, the analysis below aims to provide a deeper insight into how the two customer groups appear to use Cyclistic’s bike sharing services for different purposes.
 
 **Ride Frequency**
 
@@ -93,9 +95,9 @@ In terms of rides by month, both casual riders and annual members followed a sim
 
 However, despite the similar overall trends, casual riders showcased a noticeably sharper increase in activity during the summer period. Between the months of March and June, casual rides increased by approximately 200%, a much stronger spike compared to annual members, indicating that casual users are more influenced by seasonal factors such as warmer weather, holidays, and outdoor leisure activities compared to annual members.
 
-When analyzing weekly ride activity, annual members demonstrated more consistent usage throughout weekdays, indicating that bike-sharing is integrated into their daily commuting and weekday routines. In contrast, casual riders showed significantly higher activity levels during weekends, suggesting a stronger connection to leisure and recreational usage.
+When analysing weekly ride activity, annual members demonstrated more consistent usage throughout weekdays, indicating that bike-sharing is integrated into their daily commuting and weekday routines. In contrast, casual riders showed significantly higher activity levels during weekends, suggesting a stronger connection to leisure and recreational usage.
 
-Overall, the findings highlight clear seasonal and recreational usage patterns among casual riders. The strong increase in rides between spring and summer months, combined with higher weekend activity, suggests that many casual riders may be tourists or occasional users utilizing the service primarily for leisure purposes.
+Overall, the findings highlight clear seasonal and recreational usage patterns among casual riders. The strong increase in rides between spring and summer months, combined with higher weekend activity, suggests that many casual riders may be tourists or occasional users utilising the service primarily for leisure purposes.
 
 **Ride Duration**
 
