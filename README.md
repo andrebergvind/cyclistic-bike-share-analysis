@@ -1,7 +1,7 @@
 # Cyclistic Bike Share Analysis
 A marketing and consumer behviour data analysis exploring behavioral differences between casual riders and members for Cyclistic, a fictional bike share company operating in Chicago.
 
-The project was completed as part of the Google Data Analytics Certificate and served as the final capstone project of the course.
+The project was completed as part of the Google Data Analytics Certificate and served as the capstone of the course.
 
 
 ## Project Structure
