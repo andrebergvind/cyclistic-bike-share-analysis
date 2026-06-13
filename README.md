@@ -162,7 +162,7 @@ Additionally, offering temporary membership trials or limited promotional discou
 
 1. **Casual riders are highly influenced by seasonality and leisure oriented usage**
 
-Casual riders showed significantly higher increase in activity during summer months and weekends compared to annual members. This outcome suggests that many casual users primarily rely on the service for recreational and occasional travel rather than daily commuting.
+Casual riders shows significantly higher increase in activity during summer months and weekends compared to annual members. This outcome suggests that many casual users primarily rely on the service for recreational and occasional travel rather than daily commuting.
 
 2. **Casual riders tend to take longer and more flexible trips**
 
@@ -185,7 +185,7 @@ Emphasize how frequent casual riders could reduce overall ride costs and gain ad
 
 2. **Offer limited-time incentives encouraging casual riders to transition into annual members**
 
-We should provide incentives such as discounted first-year memberships, free trial periods, or reward programs for casual riders with high ride frequency or long-duration trips to lower the barrier toward membership conversion.
+Provide incentives such as discounted first-year memberships and free trial periods for casual riders with high ride frequency or long-duration trips to lower the barrier toward membership conversion.
 
 3. **Target casual riders directly at high-traffic recreational stations**
 
