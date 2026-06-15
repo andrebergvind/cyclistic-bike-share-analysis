@@ -1,6 +1,6 @@
--- =====================================================
+
 -- DATA CLEANING & FEATURE ENGINEERING
--- =====================================================
+
 
 -- Step 1: Create Cleaned Dataset
 -- Purpose: Remove invalid records and prepare data for analysis
@@ -26,7 +26,6 @@ WHERE ended_at > started_at
 
 -- Result: Removed 131,461 records with invalid or unrealistic durations
 
--- -----------------------------------------------------
 
 Step 2: Feature engineering 
 Purpose: From the new and cleaned table i created additional analytical variables including ride month, weekday, start time, end time, and ride duration to facilitate behavioral analysis of rider patterns.
