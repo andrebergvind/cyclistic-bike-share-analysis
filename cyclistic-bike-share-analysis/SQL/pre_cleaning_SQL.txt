@@ -1,6 +1,6 @@
--- =====================================================
+
 -- DATA VALIDATION & INITIAL EXPLORATION
--- =====================================================
+
 
 -- Step 1: Inspect Dataset Structure
 -- Purpose: Verify column data types and nullability
@@ -16,7 +16,6 @@ WHERE table_name = 'full_year_tripdata'
 
 Result: No signs of inconcistencies
 
--- -----------------------------------------------------
 
 -- Step 2: Validate Rideable Types
 -- Purpose: Confirm that rideable_type values align with expected categories
@@ -29,7 +28,6 @@ FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`
 -- Result: Only the expected categories were present: classic_bike, electric_bike, electric_scooter
 
 
--- -----------------------------------------------------
 
 -- Step 3: Validate User Segmentation
 -- Purpose: Confirm member vs casual classification
@@ -42,7 +40,6 @@ FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`
 -- Result: Two categories identified: 'casual' and 'member'
 
 
--- -----------------------------------------------------
 
 -- Step 4: Validate Ride ID Consistency
 -- Purpose: Ensure ride_id format is consistent
@@ -59,7 +56,6 @@ GROUP BY id_length
 -- Result: All ride_id values are 16 characters long
 
 
--- -----------------------------------------------------
 
 -- Step 5: Check for Duplicate Ride IDs
 -- Purpose: Ensure each trip record is unique since duplicate IDs could lead to incorrect aggregations and a skewed analysis.
@@ -74,8 +70,6 @@ ORDER BY count DESC
 
 -- Result: No duplicate ride_id values found
 
-
--- -----------------------------------------------------
 
 -- Step 6: Check for Missing Values in the dataset
 -- Purpose: Identify null values across key fields
@@ -102,8 +96,6 @@ FROM `driven-realm-460621-r2.cyclistic_project.full_year_tripdata`
 -- start_station_name, end_station_name, station IDs, and coordinate fields
 
 
--- -----------------------------------------------------
-
 -- Step 7: Validate Geographic Coordinates
 -- Purpose: Ensure latitude and longitude values are within valid ranges
 
@@ -118,7 +110,6 @@ WHERE
 -- Result: No invalid geographic coordinates detected
 
 
--- -----------------------------------------------------
 
 -- Step 8: Identify Invalid Time Sequences
 -- Purpose: Detect trips where end time precedes start time
@@ -131,8 +122,6 @@ WHERE ended_at < started_at
 
 -- Result: Invalid records identified and flagged for removal
 
-
--- -----------------------------------------------------
 
 -- Step 9: Identify Duration Outliers
 -- Purpose: Detect unrealistic trip durations
@@ -152,5 +141,4 @@ WHERE
   TIMESTAMP_DIFF(ended_at, started_at, MINUTE) > 1440
 ORDER BY duration_min DESC
 
--- Finding: 131,461 trips fell outside the valid duration range 
--- and were excluded during the data cleaning process
+-- Result: 131,461 trips fell outside the valid duration range and were excluded during the data cleaning process
