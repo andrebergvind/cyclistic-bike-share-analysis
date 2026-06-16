@@ -174,8 +174,6 @@ Station usage patterns revealed that casual riders are more commonly associated 
 
 
 ## Recommendations
-
-Based on the key insights following the analysis, Cyclistic can increase annual memberships by:
   
 
 1. **Promote the long-term value of annual memberships during peak casual rider seasons**
