@@ -178,17 +178,17 @@ Station usage patterns revealed that casual riders are more commonly associated 
 
 1. **Promote the long-term value of annual memberships during peak casual rider seasons**
 
-Launch targeted summer and weekend campaigns, the periods casual riders showcase highest frequency in use of the service.
-Emphasize how frequent casual riders could reduce overall ride costs and gain additional benefits by switching to annual memberships.
+Launch targeted March to September, and weekend campaigns, the periods casual riders showcase highest increase in in use of the service.
+Emphasize how frequent casual riders could reduce overall ride costs and gain additional benefits by switching to annual memberships. For example how a one tim payment provides accessibility to bikes without having to worry about unlocking fees.
 
 2. **Offer limited-time incentives encouraging casual riders to transition into annual members**
 
-Provide incentives such as discounted first-year memberships and free trial periods for casual riders with high ride frequency or long-duration trips to lower the barrier toward membership conversion.
+Provide incentives such as discounted first-year memberships and free trial periods for casual riders with high ride frequency or long-duration trips to lower the barrier toward membership conversion. The casual riders may need more incentives than just overall lower costs. By providing a trial or a discount, particularly during peaking period, they might be more susceptible and therefore commit.
 
 3. **Target casual riders directly at high-traffic recreational stations**
 
-In order to most effectively reach the targeted segment we should implement location-based marketing at parks, waterfronts, and tourist-heavy stations.
-Digital billboards and geo-fenced mobile app notifications could serve as efficient means to reach the targets.
+In order to most effectively reach the targeted segment, we should implement location-based marketing at parks, waterfronts, and tourist-heavy stations. These are areas most commonly recorded for ride initiation, and may serve as the most efficient way to reach our target audience.
+Digital billboards and geo-fenced mobile app notifications could serve as efficient means to reach the targets. By leveraging the app, every time they open it to connect, a pop up could appear with an offer they can't refuse.
 
  ---
 
