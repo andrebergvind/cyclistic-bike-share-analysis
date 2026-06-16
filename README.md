@@ -31,6 +31,7 @@ The project was completed as part of the Google Data Analytics Certificate and s
 The director of marketing at Cyclistic believes the company’s future growth depends on maximising the number of annual memberships. Therefore, i have been given the task to analyse how casual riders and annual members use Cyclistic bikes differently, uncover actionable insights, and provide recommendations to convert casual riders into annual members.
 
 **User Conditions:**
+
 In Cyclistics’s bike share system, annual members require to pay an up front fee of 143 dollars per year and can enjoy unlimited 45 minute rides with no unlocking fees. Additional cost per minute is only added when exceeding the 45 minute limit.
 
 In contrast, casual riders pay per ride, with unlocking fees of 1 dollar and additonal per-minute usage rates of 0.22 dollars.
